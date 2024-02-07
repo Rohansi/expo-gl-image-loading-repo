@@ -26,7 +26,7 @@ export default function App() {
   return (
     <Suspense fallback={<Text>Loading...</Text>}>
       <View style={styles.container}>
-        {loaded && <TestSkia imageUri={imageUri} />}
+        {loaded && <TestGL imageUri={imageUri} />}
       </View>
     </Suspense>
   );
